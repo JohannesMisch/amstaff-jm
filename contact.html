@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Amstaff</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form action="">
+                <fieldset>
+                    <legend>About your Doggy:</legend>
+                    <div>
+                        <label for="Name">Name</label>
+                        <input
+                            type="text"
+                            name="Dog-name"
+                            id="Name"
+                            maxlength="35"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label for="breed">Breed</label>
+                        <input
+                            type="text"
+                            name="dog-bredd"
+                            id="breed"
+                        />
+                    </div>
+                    <div>
+                        <label for="age">Age of your Dog</label>
+                        <input type="number"
+                        name="dog-age"
+                        id="age">
+                    </div>
+                    <div id="gender">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                    <div>
+                        <label for="pic">Picture</label>
+                        <input type="file" name="picture" id="pic" required/>
+                    </div>
+                    <div>
+                        <button class="send">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer></footer>
+    </body>
+</html>
